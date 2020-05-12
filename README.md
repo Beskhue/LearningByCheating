@@ -50,7 +50,7 @@ mv Town*.bin CarlaUE4/Content/Carla/Maps/Nav/
 
 # Create conda environment
 conda env create -f environment.yml
-conda activate carla
+conda activate learning-by-cheating
 
 # Install carla client
 cd PythonAPI/carla/dist
