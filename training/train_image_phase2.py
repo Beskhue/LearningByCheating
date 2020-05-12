@@ -19,7 +19,7 @@ except IndexError as e:
     pass
 
 from bird_view.utils import carla_utils as cu
-from train_util import one_hot
+from utils.train_utils import one_hot
 from benchmark import make_suite
 
 BACKBONE = 'resnet34'

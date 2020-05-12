@@ -20,7 +20,7 @@ except IndexError as e:
 import utils.bz_utils as bzu
 
 from models.birdview import BirdViewPolicyModelSS
-from train_util import one_hot
+from utils.train_utils import one_hot
 from utils.datasets.birdview_lmdb import get_birdview as load_data
 
 
